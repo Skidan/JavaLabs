@@ -1,7 +1,9 @@
+
 public class Point {
     // FIELDS
     private double coordX;
     private double coordY;
+    private String className = this.getClass().getSimpleName();
 
     // GETTERS/SETTERS
     public double getCoordX() {
@@ -16,6 +18,9 @@ public class Point {
     public void setCoordY(double coordY) {
         this.coordY = coordY;
     }
+    public String getClassName() {
+        return className;
+    }
 
     // CONSTRUCTORS
     public Point(double x, double y) {
@@ -28,12 +33,12 @@ public class Point {
 
     // METHODS
     public void printInfo() {
-        System.out.println("Point's coordinates are\n\tX: " + coordX + "\n\tY: " + coordY);
+        System.out.println("\nClass " + getClassName() + ".\nPoint's coordinates are\n\tX: " + coordX + "\n\tY: " + coordY);
     }
-
     public void move(double tox, double toy) {
         this.coordX = tox;
         this.coordY = toy;
+        System.out.println("Moved to new coordinates. X: " + getCoordX() + "; Y: " + getCoordY());
     }
     public void move() {
         this.coordX = 1.0;
