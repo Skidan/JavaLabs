@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dae05046-d257-4a5d-ad8f-8439c0acfcd5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab3Classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab3Classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab3Classes/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab3Classes/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab3Classes/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab3Classes/Rhomb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab3Classes/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab3Classes/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab3Classes/Tetragon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab3Classes/Trapeze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab3Classes/Triangle.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rhomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rhomb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tetragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tetragon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trapeze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trapeze.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,31 +86,35 @@
     </state>
     <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1577036829604" />
     <state x="387" y="33" key="#Project_Structure/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577290331889" />
-    <state x="544" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1577043900526">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1577391003664">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="544" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577043900526" />
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1576526642017" />
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1577365168052">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577391003664" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577383531321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577383531321" />
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1577392830585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="351" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577045302511" />
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577365168052" />
-    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1577365168052">
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577392830585" />
+    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1577392830585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="351" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577045302511" />
-    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577365168052" />
-    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1577365168052">
+    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577392830585" />
+    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1577392830584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="351" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577045302511" />
-    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577365168052" />
-    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1577365168052">
+    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577392830584" />
+    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1577392830585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="351" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577045302511" />
-    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577365168052" />
+    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577392830585" />
     <state x="328" y="14" key="SettingsEditor" timestamp="1577036762343">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

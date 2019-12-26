@@ -1,12 +1,15 @@
 public class Point extends Figure {
+
     // FIELDS
     private double coordX;
     private double coordY;
+
     // GETTERS/SETTERS
     public double getCoordX() {return coordX;}
     public void setCoordX(double coordX) {this.coordX = coordX;}
     public double getCoordY() {return coordY;}
     public void setCoordY(double coordY) {this.coordY = coordY;}
+
     // CONSTRUCTORS
     public Point(double x, double y) {
         this.coordX = x;
@@ -17,6 +20,7 @@ public class Point extends Figure {
         this(0.0, 0.0);
         System.out.println("Point created from default point constructor;");
     }
+
     // METHODS
     @Override
     public void printInfo() {
@@ -26,22 +30,16 @@ public class Point extends Figure {
     public void move(double toX, double toY) {
         setCoordX(toX);
         setCoordY(toY);
-        System.out.println("\nMoved to new coordinates. X: " + getCoordX() + "; Y: " + getCoordY());
+        System.out.println("\n" + className() + " moved to new coordinates. X: " + getCoordX() + "; Y: " + getCoordY());
     }
-    @Override
+    @Override // default overload
     public void move() {
         setCoordX(0.0);
         setCoordY(0.0);
-        System.out.println("\nMoved to default coordinates. X: 0; Y: 0;");
+        System.out.println("\n" + className() + " moved to default coordinates. X: 0; Y: 0;");
     }
-//    @Override
-//    public void change(double coordX, double coordY) {
-//        System.out.println("Changing the " + className() + " properties. Calling \"move\" function...");
-//        move(coordX, coordY);
-//    }
     @Override
-    public void change() {
-        System.out.println("Changing the " + className() + " properties. Calling \"move\" function with defaults...");
-        move();
+    public void scale(double scale) {
+        System.out.println("The only properties for the " + className() + " are coordinates.\n Please call \"Move\" method to change the coordinates.");
     }
 }
